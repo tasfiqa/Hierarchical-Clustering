@@ -81,11 +81,3 @@ class Clustering:
     """Complete link hierarchical clustering"""
     clusters = self.clustering(X, K, Distance_Functions.complete_link_distance)
     return clusters, self.map_data_to_clusters(X, clusters)
-
-  
-
-
-  
-  
-
-  
