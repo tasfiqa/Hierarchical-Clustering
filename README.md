@@ -1,2 +1,2 @@
 # Hierarchical-Clustering
-Implements hierarchical clustering with Python's standard libraries
+Implements hierarchical clustering Single Link, Average Link, and Complete Link Distance with Python's standard libraries.
