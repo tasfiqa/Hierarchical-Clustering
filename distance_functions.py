@@ -8,8 +8,8 @@ class Distance_Functions:
             return 0
         
         return mean([
-        mean(row)
-        for row in point_distance_matrix
+            mean(row)
+            for row in point_distance_matrix
         ])
     
     @staticmethod
@@ -18,8 +18,8 @@ class Distance_Functions:
             return -math.inf
 
         return max([
-        max(row)
-        for row in point_distance_matrix
+            max(row)
+            for row in point_distance_matrix
         ])
     
     @staticmethod
@@ -28,8 +28,8 @@ class Distance_Functions:
             return math.inf
 
         return min([
-        min(row)
-        for row in point_distance_matrix
+            min(row)
+            for row in point_distance_matrix
         ])
     
     @staticmethod
@@ -41,6 +41,3 @@ class Distance_Functions:
             for i in range(dims)
         ]
         ))
-
-    
-
